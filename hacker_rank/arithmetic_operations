@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+read formula
+
+result=$(echo "${formula}" | bc -l)
+printf "%.3f \n" $result
